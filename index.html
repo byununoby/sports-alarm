@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>직관 캘린더</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#E9EDF1; --surface:#FFFFFF; --ink:#16202B; --muted:#5F6B78; --line:#D3DAE1;
+  --stub:#16202B; --stub-ink:#F5F7FA; --flood:#F5C518; --away:#EEF1F4;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --bg:#12171D; --surface:#1B222A; --ink:#E8EDF2; --muted:#93A0AD; --line:#2A333D;
+         --stub:#F5C518; --stub-ink:#16202B; --flood:#F5C518; --away:#222A33; color-scheme:dark; }
+}
+*{box-sizing:border-box}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"IBM Plex Sans KR",-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  font-size:15px;line-height:1.5;word-break:keep-all;overflow-wrap:break-word}
+.wrap{max-width:860px;margin:0 auto;padding:28px 18px 64px}
+h1{font-family:"Black Han Sans","IBM Plex Sans KR",sans-serif;font-weight:400;font-size:40px;line-height:1;margin:0 0 6px;letter-spacing:-.5px}
+.sub{color:var(--muted);font-size:13px;margin:0 0 20px}
+.subscribe{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.subscribe a{color:var(--ink);text-decoration:none;border:1.5px solid var(--ink);border-radius:999px;padding:6px 14px;font-weight:500;font-size:14px}
+.subscribe a:hover{background:var(--ink);color:var(--bg)}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  border-radius:999px;padding:6px 12px;font:inherit;font-size:14px;cursor:pointer}
+.chip .dot{width:10px;height:10px;border-radius:50%}
+.chip[aria-pressed="false"]{opacity:.45}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--surface)}
+.seg button{font:inherit;font-size:14px;border:0;background:none;color:var(--ink);padding:6px 14px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.row2{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:26px}
+label.past{font-size:14px;color:var(--muted);display:flex;gap:6px;align-items:center}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--flood);outline-offset:2px}
+
+.upcoming{background:var(--stub);color:var(--stub-ink);border-radius:14px;padding:16px 18px;margin-bottom:30px}
+.upcoming h2{font-size:15px;margin:0 0 10px;font-weight:700}
+.upcoming ol{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.upcoming li{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center}
+.upcoming .when{white-space:nowrap;font-family:"Black Han Sans",sans-serif;font-size:20px;line-height:1}
+.upcoming a{color:inherit;font-weight:700;font-size:13px;border:1.5px solid currentColor;border-radius:999px;padding:4px 10px;text-decoration:none;white-space:nowrap}
+.upcoming .empty{opacity:.75;font-size:14px}
+
+.day{margin-bottom:22px}
+.day h3{display:flex;align-items:baseline;gap:10px;margin:0 0 8px;font-weight:400}
+.day h3 .d{font-family:"Black Han Sans",sans-serif;font-size:26px;line-height:1}
+.day h3 .dd{font-size:13px;color:var(--muted)}
+.game{display:grid;grid-template-columns:1fr auto;background:var(--surface);border-radius:12px;margin-bottom:8px;overflow:hidden;
+  border-left:6px solid var(--team,#888)}
+.main{padding:12px 14px;display:grid;grid-template-columns:62px 1fr;gap:4px 12px;align-items:start}
+.time{white-space:nowrap;font-family:"Black Han Sans",sans-serif;font-size:22px;line-height:1.1}
+.match{font-weight:700;font-size:16px}
+.match .vs{color:var(--muted);font-weight:400;margin:0 6px}
+.meta{grid-column:2;color:var(--muted);font-size:13px}
+.result{grid-column:2;font-size:13px;font-weight:700}
+.stub{position:relative;min-width:150px;padding:12px 16px 12px 20px;display:flex;flex-direction:column;justify-content:center;gap:6px;
+  background:var(--stub);color:var(--stub-ink)}
+.stub::before{content:"";position:absolute;left:-1px;top:0;bottom:0;width:8px;
+  background:radial-gradient(circle at 0 50%,var(--surface) 4px,transparent 4.5px) 0 0/8px 14px repeat-y}
+.stub .lab{font-size:12px;opacity:.8}
+.stub .open{font-weight:700;font-size:14px}
+.stub a{align-self:flex-start;background:var(--flood);color:#16202B;text-decoration:none;font-weight:700;font-size:13px;padding:5px 12px;border-radius:999px}
+@media (prefers-color-scheme:dark){ .stub a{background:#16202B;color:#F5C518} }
+.stub.away{background:var(--away);color:var(--muted)}
+.stub.away::before{display:none}
+.stub.done{background:var(--away);color:var(--muted)}
+.stub.done::before{display:none}
+.tag{font-size:12px;font-weight:700}
+.empty-state{background:var(--surface);border-radius:12px;padding:24px;color:var(--muted)}
+@media (max-width:560px){
+  h1{font-size:32px}
+  .game{grid-template-columns:1fr}
+  .stub{min-width:0;flex-direction:row;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:10px 14px}
+  .stub::before{display:none}
+  .main{grid-template-columns:54px 1fr}
+  .upcoming li{grid-template-columns:auto 1fr;row-gap:4px}
+  .upcoming li a{grid-column:2;justify-self:start}
+}
+@media (prefers-reduced-motion:no-preference){ .chip,.seg button{transition:opacity .15s} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>직관 캘린더</h1>
+  <p class="sub" id="updated">일정 불러오는 중</p>
+
+  <nav class="subscribe" id="subscribe" aria-label="캘린더 구독"></nav>
+
+  <div class="filters" id="teams" role="group" aria-label="팀 선택"></div>
+  <div class="row2">
+    <div class="seg" id="side" role="group" aria-label="홈/원정">
+      <button data-v="all" aria-pressed="true">전체</button>
+      <button data-v="home" aria-pressed="false">홈만</button>
+      <button data-v="away" aria-pressed="false">원정만</button>
+    </div>
+    <label class="past"><input type="checkbox" id="past"> 지난 경기 보기</label>
+  </div>
+
+  <section class="upcoming" aria-labelledby="upTitle">
+    <h2 id="upTitle">다가오는 티켓 오픈</h2>
+    <ol id="upcoming"></ol>
+  </section>
+
+  <main id="list"></main>
+</div>
+
+<script>
+const WD = "일월화수목금토";
+const state = { teams: new Set(), side: "all", past: false };
+let DATA = null;
+
+const pad = n => String(n).padStart(2, "0");
+const kst = iso => new Date(iso);
+// 모든 날짜는 한국 시간 기준 문자열을 직접 읽어 표시한다 (기기 시간대와 무관)
+function parts(str){ // "2026-04-08" 또는 "2026-04-08T11:00:00+09:00"
+  const [y,m,d] = str.slice(0,10).split("-").map(Number);
+  const hm = str.length > 10 ? str.slice(11,16) : null;
+  return { y, m, d, hm, wd: WD[new Date(Date.UTC(y, m-1, d)).getUTCDay()] };
+}
+function fmtDate(str){ const p = parts(str); return `${pad(p.m)}.${pad(p.d)} ${p.wd}`; }
+function fmtOpen(str){ const p = parts(str); return `${pad(p.m)}.${pad(p.d)}(${p.wd}) ${p.hm}`; }
+function todayKST(){ return new Date(Date.now() + 9*3600e3).toISOString().slice(0,10); }
+function dday(dateStr){
+  const n = Math.round((Date.parse(dateStr) - Date.parse(todayKST())) / 86400000);
+  return n === 0 ? "오늘" : n > 0 ? `D-${n}` : `${-n}일 전`;
+}
+function gameStart(g){ return new Date(`${g.date}T${g.time || "19:00"}:00+09:00`); }
+function esc(s){ return String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function teamOf(g){
+  const ids = [g.home.team_id, g.away.team_id].filter(Boolean);
+  const shown = ids.filter(id => state.teams.has(id));
+  return shown.length ? shown : null;
+}
+
+function buildSubscribe(){
+  const base = new URL("calendar/", location.href);
+  const http = new URL("all.ics", base).href;
+  const webcal = http.replace(/^https?:/, "webcal:");
+  const google = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(webcal);
+  document.getElementById("subscribe").innerHTML =
+    `<a href="${webcal}">아이폰 캘린더에 구독</a>` +
+    `<a href="${google}" target="_blank" rel="noopener">구글 캘린더에 구독</a>` +
+    `<a href="${http}">.ics 주소</a>`;
+}
+
+function buildTeamChips(){
+  const box = document.getElementById("teams");
+  box.innerHTML = DATA.teams.map(t =>
+    `<button class="chip" data-id="${t.id}" aria-pressed="true"><span class="dot" style="background:${t.color}"></span>${esc(t.name)}</button>`
+  ).join("");
+  box.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+    const id = b.dataset.id;
+    state.teams.has(id) ? state.teams.delete(id) : state.teams.add(id);
+    b.setAttribute("aria-pressed", state.teams.has(id));
+    render();
+  }));
+}
+
+function render(){
+  const now = new Date();
+  const colors = Object.fromEntries(DATA.teams.map(t => [t.id, t.color]));
+  const names = Object.fromEntries(DATA.teams.map(t => [t.id, t.name]));
+
+  const games = DATA.games.filter(g => {
+    const mine = teamOf(g);
+    if (!mine) return false;
+    const isHome = mine.includes(g.home.team_id);
+    if (state.side === "home" && !isHome) return false;
+    if (state.side === "away" && isHome && !(g.away.team_id && mine.includes(g.away.team_id))) return false;
+    if (!state.past && gameStart(g).getTime() + 3*3600e3 < now.getTime()) return false;
+    return true;
+  });
+
+  // 다가오는 티켓 오픈
+  const ups = DATA.games
+    .filter(g => g.ticket && state.teams.has(g.home.team_id) && kst(g.ticket.open_at) > new Date(now - 3600e3))
+    .sort((a,b) => kst(a.ticket.open_at) - kst(b.ticket.open_at)).slice(0, 4);
+  document.getElementById("upcoming").innerHTML = ups.length ? ups.map(g => {
+    const p = parts(g.ticket.open_at);
+    return `<li><span class="when">${pad(p.m)}.${pad(p.d)} ${p.hm}</span>
+      <span>${esc(g.home.name)} vs ${esc(g.away.name)} <small>(${g.date.slice(5).replace("-", ".")} 경기)</small></span>
+      <a href="${esc(g.ticket.url)}" target="_blank" rel="noopener">예매 페이지</a></li>`;
+  }).join("") : `<li class="empty">선택한 팀의 예정된 티켓 오픈이 없습니다.</li>`;
+
+  // 날짜별 목록
+  const byDay = new Map();
+  games.forEach(g => { if (!byDay.has(g.date)) byDay.set(g.date, []); byDay.get(g.date).push(g); });
+  const html = [...byDay].map(([d, list]) => {
+    return `<section class="day"><h3><span class="d">${fmtDate(d)}</span><span class="dd">${dday(d)}</span></h3>` +
+      list.map(g => card(g, colors, names, now)).join("") + `</section>`;
+  }).join("");
+  document.getElementById("list").innerHTML = html ||
+    `<div class="empty-state">표시할 경기가 없습니다. 팀 선택이나 홈/원정 필터를 바꿔 보세요.</div>`;
+}
+
+function card(g, colors, names, now){
+  const mine = teamOf(g);
+  const isHome = mine.includes(g.home.team_id);
+  const focus = isHome ? g.home.team_id : mine[0];
+  const sport = g.sport === "football" ? "축구" : "농구";
+  const finished = g.status === "종료";
+  const meta = [g.competition, g.venue, g.broadcast.length ? "중계 " + g.broadcast.join(", ") : ""].filter(Boolean).map(esc).join(" / ");
+  const result = finished && g.score ? `<div class="result">종료 ${g.score[0]} : ${g.score[1]}</div>` :
+                 (g.status !== "예정" ? `<div class="result">${esc(g.status)}</div>` : "");
+  let stub;
+  if (finished){
+    stub = `<div class="stub done"><span class="tag">${isHome ? "홈" : "원정"} 경기 종료</span></div>`;
+  } else if (isHome && g.ticket){
+    const o = kst(g.ticket.open_at);
+    const opened = o <= now;
+    stub = `<div class="stub"><span class="lab">${opened ? "예매 진행 중 (예상)" : "티켓 오픈 예상"}</span>
+      <span class="open">${fmtOpen(g.ticket.open_at)}</span>
+      <a href="${esc(g.ticket.url)}" target="_blank" rel="noopener">예매하기</a></div>`;
+  } else {
+    stub = `<div class="stub away"><span class="tag">원정</span><span>${esc(names[focus])}</span></div>`;
+  }
+  return `<article class="game" style="--team:${colors[focus]}">
+    <div class="main">
+      <div class="time">${g.time || "미정"}</div>
+      <div class="match">${esc(g.home.name)}<span class="vs">vs</span>${esc(g.away.name)}</div>
+      <div class="meta">${sport} / ${meta}</div>
+      ${result}
+    </div>${stub}</article>`;
+}
+
+document.querySelectorAll("#side button").forEach(b => b.addEventListener("click", () => {
+  state.side = b.dataset.v;
+  document.querySelectorAll("#side button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  render();
+}));
+document.getElementById("past").addEventListener("change", e => { state.past = e.target.checked; render(); });
+
+buildSubscribe();
+fetch("data/games.json", {cache: "no-store"})
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => {
+    DATA = d;
+    DATA.teams.forEach(t => state.teams.add(t.id));
+    document.getElementById("updated").textContent =
+      `마지막 갱신 ${d.updated_at.replace("T", " ").slice(0, 16)}, 경기 ${d.games.length}건`;
+    buildTeamChips(); render();
+  })
+  .catch(() => {
+    document.getElementById("updated").textContent =
+      "일정 파일(data/games.json)이 아직 없습니다. GitHub Actions 탭에서 update-schedule 을 한 번 실행하세요.";
+  });
+</script>
+</body>
+</html>
