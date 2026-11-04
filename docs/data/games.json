@@ -1,0 +1,5079 @@
+{
+ "updated_at": "2026-11-04T11:55+09:00",
+ "teams": [
+  {
+   "id": "suwon_bluewings",
+   "name": "수원삼성",
+   "sport": "football",
+   "color": "#1A4FA0",
+   "ticket_url": "https://www.bluewings.kr"
+  },
+  {
+   "id": "daejeon",
+   "name": "대전하나시티즌",
+   "sport": "football",
+   "color": "#7B1E3A",
+   "ticket_url": "https://www.dhcfc.kr"
+  },
+  {
+   "id": "fcseoul",
+   "name": "FC서울",
+   "sport": "football",
+   "color": "#B8202C",
+   "ticket_url": "https://www.fcseoul.com"
+  },
+  {
+   "id": "kt_sonicboom",
+   "name": "수원 KT",
+   "sport": "basketball",
+   "color": "#E4002B",
+   "ticket_url": "https://www.kbl.or.kr"
+  },
+  {
+   "id": "jungkwanjang",
+   "name": "안양 정관장",
+   "sport": "basketball",
+   "color": "#9E1B32",
+   "ticket_url": "https://www.kbl.or.kr"
+  },
+  {
+   "id": "samsung_thunders",
+   "name": "서울 삼성",
+   "sport": "basketball",
+   "color": "#0A3A8C",
+   "ticket_url": "https://www.kbl.or.kr"
+  },
+  {
+   "id": "sk_knights",
+   "name": "서울 SK",
+   "sport": "basketball",
+   "color": "#D9261C",
+   "ticket_url": "https://www.kbl.or.kr"
+  }
+ ],
+ "games": [
+  {
+   "id": "kbl-S49G01N31",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-10-21",
+   "time": "19:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "종료",
+   "score": [
+    97,
+    86
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-10-14T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N33",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-10-23",
+   "time": "19:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "종료",
+   "score": [
+    95,
+    102
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-10-16T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kl-2026-1-1-196",
+   "sport": "football",
+   "league": "K리그1",
+   "competition": "하나은행 K리그1 2026",
+   "round": 33,
+   "date": "2026-10-24",
+   "time": "14:00",
+   "home": {
+    "name": "김천",
+    "code": "K35",
+    "team_id": null
+   },
+   "away": {
+    "name": "대전",
+    "code": "K10",
+    "team_id": "daejeon"
+   },
+   "venue": "김천 종합 운동장",
+   "broadcast": [
+    "생활체육TV",
+    "COUPANGPLAY"
+   ],
+   "status": "종료",
+   "score": [
+    1,
+    2
+   ],
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=196&meetSeq=1",
+   "ticket": null
+  },
+  {
+   "id": "kl-2026-1-1-198",
+   "sport": "football",
+   "league": "K리그1",
+   "competition": "하나은행 K리그1 2026",
+   "round": 33,
+   "date": "2026-10-24",
+   "time": "14:00",
+   "home": {
+    "name": "서울",
+    "code": "K09",
+    "team_id": "fcseoul"
+   },
+   "away": {
+    "name": "강원",
+    "code": "K21",
+    "team_id": null
+   },
+   "venue": "서울 월드컵 경기장",
+   "broadcast": [
+    "ENA SPORTS",
+    "COUPANGPLAY"
+   ],
+   "status": "종료",
+   "score": [
+    1,
+    1
+   ],
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=198&meetSeq=1",
+   "ticket": {
+    "url": "https://www.fcseoul.com",
+    "open_at": "2026-10-17T14:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N34",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-10-24",
+   "time": "14:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "종료",
+   "score": [
+    86,
+    85
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-10-17T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N35",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-10-24",
+   "time": "16:30",
+   "home": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "울산동천체육관",
+   "broadcast": [
+    "IB SPORTS"
+   ],
+   "status": "종료",
+   "score": [
+    71,
+    91
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kl-2026-2-2-235",
+   "sport": "football",
+   "league": "K리그2",
+   "competition": "하나은행 K리그2 2026",
+   "round": 30,
+   "date": "2026-10-25",
+   "time": "14:00",
+   "home": {
+    "name": "성남",
+    "code": "K08",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원",
+    "code": "K02",
+    "team_id": "suwon_bluewings"
+   },
+   "venue": "탄천 종합 운동장",
+   "broadcast": [
+    "생활체육TV",
+    "COUPANGPLAY"
+   ],
+   "status": "종료",
+   "score": [
+    0,
+    2
+   ],
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=2&gameId=235&meetSeq=2",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N37",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-10-25",
+   "time": "14:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "종료",
+   "score": [
+    90,
+    79
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-10-18T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N38",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-10-25",
+   "time": "14:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [
+    "IB SPORTS"
+   ],
+   "status": "종료",
+   "score": [
+    93,
+    95
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-10-18T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N39",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-10-25",
+   "time": "16:30",
+   "home": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "대구체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "종료",
+   "score": [
+    68,
+    76
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N41",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-10-27",
+   "time": "19:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "종료",
+   "score": [
+    96,
+    87
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-10-20T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N44",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-10-30",
+   "time": "19:00",
+   "home": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "고양소노아레나",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "종료",
+   "score": [
+    87,
+    95
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kl-2026-1-1-199",
+   "sport": "football",
+   "league": "K리그1",
+   "competition": "하나은행 K리그1 2026",
+   "round": 34,
+   "date": "2026-10-31",
+   "time": "14:00",
+   "home": {
+    "name": "전북",
+    "code": "K05",
+    "team_id": null
+   },
+   "away": {
+    "name": "대전",
+    "code": "K10",
+    "team_id": "daejeon"
+   },
+   "venue": "전주 월드컵 경기장",
+   "broadcast": [
+    "JTBC SPORTS",
+    "COUPANGPLAY"
+   ],
+   "status": "종료",
+   "score": [
+    0,
+    0
+   ],
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=199&meetSeq=1",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N46",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-10-31",
+   "time": "14:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [
+    "IB SPORTS"
+   ],
+   "status": "종료",
+   "score": [
+    90,
+    92
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-10-24T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kl-2026-2-2-244",
+   "sport": "football",
+   "league": "K리그2",
+   "competition": "하나은행 K리그2 2026",
+   "round": 31,
+   "date": "2026-10-31",
+   "time": "16:30",
+   "home": {
+    "name": "대구",
+    "code": "K17",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원",
+    "code": "K02",
+    "team_id": "suwon_bluewings"
+   },
+   "venue": "대구iM뱅크PARK",
+   "broadcast": [
+    "MAXPORTS",
+    "COUPANGPLAY"
+   ],
+   "status": "종료",
+   "score": [
+    2,
+    2
+   ],
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=2&gameId=244&meetSeq=2",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N48",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-01",
+   "time": "14:00",
+   "home": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "고양소노아레나",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "종료",
+   "score": [
+    96,
+    103
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kl-2026-1-1-203",
+   "sport": "football",
+   "league": "K리그1",
+   "competition": "하나은행 K리그1 2026",
+   "round": 34,
+   "date": "2026-11-01",
+   "time": "16:30",
+   "home": {
+    "name": "서울",
+    "code": "K09",
+    "team_id": "fcseoul"
+   },
+   "away": {
+    "name": "인천",
+    "code": "K18",
+    "team_id": null
+   },
+   "venue": "서울 월드컵 경기장",
+   "broadcast": [
+    "JTBC SPORTS",
+    "COUPANGPLAY"
+   ],
+   "status": "종료",
+   "score": [
+    0,
+    1
+   ],
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=203&meetSeq=1",
+   "ticket": {
+    "url": "https://www.fcseoul.com",
+    "open_at": "2026-10-25T14:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N50",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-01",
+   "time": "16:30",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "종료",
+   "score": [
+    76,
+    90
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-10-25T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N51",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-02",
+   "time": "19:00",
+   "home": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "대구체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "종료",
+   "score": [
+    71,
+    77
+   ],
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N53",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-04",
+   "time": "19:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-10-28T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N54",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-05",
+   "time": "19:00",
+   "home": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "울산동천체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N55",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-06",
+   "time": "19:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-10-30T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N57",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-07",
+   "time": "14:00",
+   "home": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "원주DB프로미아레나",
+   "broadcast": [
+    "IB SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N58",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-07",
+   "time": "16:30",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-10-31T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kl-2026-1-1-207",
+   "sport": "football",
+   "league": "K리그1",
+   "competition": "하나은행 K리그1 2026",
+   "round": 35,
+   "date": "2026-11-08",
+   "time": "14:00",
+   "home": {
+    "name": "서울",
+    "code": "K09",
+    "team_id": "fcseoul"
+   },
+   "away": {
+    "name": "울산",
+    "code": "K01",
+    "team_id": null
+   },
+   "venue": "서울 월드컵 경기장",
+   "broadcast": [
+    "JTBC SPORTS",
+    "COUPANGPLAY"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=207&meetSeq=1",
+   "ticket": {
+    "url": "https://www.fcseoul.com",
+    "open_at": "2026-11-01T14:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kl-2026-1-1-208",
+   "sport": "football",
+   "league": "K리그1",
+   "competition": "하나은행 K리그1 2026",
+   "round": 35,
+   "date": "2026-11-08",
+   "time": "14:00",
+   "home": {
+    "name": "대전",
+    "code": "K10",
+    "team_id": "daejeon"
+   },
+   "away": {
+    "name": "인천",
+    "code": "K18",
+    "team_id": null
+   },
+   "venue": "대전 월드컵 경기장",
+   "broadcast": [
+    "ENA SPORTS",
+    "COUPANGPLAY"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=208&meetSeq=1",
+   "ticket": {
+    "url": "https://www.dhcfc.kr",
+    "open_at": "2026-11-01T14:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kl-2026-2-2-254",
+   "sport": "football",
+   "league": "K리그2",
+   "competition": "하나은행 K리그2 2026",
+   "round": 32,
+   "date": "2026-11-08",
+   "time": "14:00",
+   "home": {
+    "name": "수원",
+    "code": "K02",
+    "team_id": "suwon_bluewings"
+   },
+   "away": {
+    "name": "용인",
+    "code": "K42",
+    "team_id": null
+   },
+   "venue": "수원 월드컵 경기장",
+   "broadcast": [
+    "MAXPORTS",
+    "COUPANGPLAY"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=2&gameId=254&meetSeq=2",
+   "ticket": {
+    "url": "https://www.bluewings.kr",
+    "open_at": "2026-11-01T14:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N59",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-08",
+   "time": "14:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-11-01T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N60",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-08",
+   "time": "14:00",
+   "home": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "울산동천체육관",
+   "broadcast": [
+    "IB SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N62",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-09",
+   "time": "19:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-11-02T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N64",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-11",
+   "time": "19:00",
+   "home": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "창원체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N66",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-13",
+   "time": "19:00",
+   "home": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "원주DB프로미아레나",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N67",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-14",
+   "time": "14:00",
+   "home": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "부산사직체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N69",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-14",
+   "time": "16:30",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-11-07T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N71",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-15",
+   "time": "16:30",
+   "home": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "창원체육관",
+   "broadcast": [
+    "IB SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N73",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-16",
+   "time": "19:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-11-09T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N74",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-17",
+   "time": "19:00",
+   "home": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "원주DB프로미아레나",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N75",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-18",
+   "time": "19:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-11-11T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N76",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-19",
+   "time": "19:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [
+    "tvN SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-11-12T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N77",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-11-19",
+   "time": "19:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [
+    "IB SPORTS"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-11-12T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kl-2026-1-1-211",
+   "sport": "football",
+   "league": "K리그1",
+   "competition": "하나은행 K리그1 2026",
+   "round": 36,
+   "date": "2026-11-21",
+   "time": "14:00",
+   "home": {
+    "name": "전북",
+    "code": "K05",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울",
+    "code": "K09",
+    "team_id": "fcseoul"
+   },
+   "venue": "전주 월드컵 경기장",
+   "broadcast": [
+    "JTBC SPORTS",
+    "COUPANGPLAY"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=211&meetSeq=1",
+   "ticket": null
+  },
+  {
+   "id": "kl-2026-2-2-257",
+   "sport": "football",
+   "league": "K리그2",
+   "competition": "하나은행 K리그2 2026",
+   "round": 33,
+   "date": "2026-11-21",
+   "time": "14:00",
+   "home": {
+    "name": "수원",
+    "code": "K02",
+    "team_id": "suwon_bluewings"
+   },
+   "away": {
+    "name": "경남",
+    "code": "K20",
+    "team_id": null
+   },
+   "venue": "수원 월드컵 경기장",
+   "broadcast": [
+    "생활체육TV",
+    "COUPANGPLAY"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=2&gameId=257&meetSeq=2",
+   "ticket": {
+    "url": "https://www.bluewings.kr",
+    "open_at": "2026-11-14T14:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kl-2026-1-1-213",
+   "sport": "football",
+   "league": "K리그1",
+   "competition": "하나은행 K리그1 2026",
+   "round": 36,
+   "date": "2026-11-21",
+   "time": "16:30",
+   "home": {
+    "name": "강원",
+    "code": "K21",
+    "team_id": null
+   },
+   "away": {
+    "name": "대전",
+    "code": "K10",
+    "team_id": "daejeon"
+   },
+   "venue": "강릉하이원아레나",
+   "broadcast": [
+    "ENA SPORTS",
+    "COUPANGPLAY"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=213&meetSeq=1",
+   "ticket": null
+  },
+  {
+   "id": "kl-2026-1-1-217",
+   "sport": "football",
+   "league": "K리그1",
+   "competition": "하나은행 K리그1 2026",
+   "round": 37,
+   "date": "2026-11-28",
+   "time": "14:00",
+   "home": {
+    "name": "서울",
+    "code": "K09",
+    "team_id": "fcseoul"
+   },
+   "away": {
+    "name": "대전",
+    "code": "K10",
+    "team_id": "daejeon"
+   },
+   "venue": "서울 월드컵 경기장",
+   "broadcast": [
+    "ENA SPORTS",
+    "COUPANGPLAY"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=217&meetSeq=1",
+   "ticket": {
+    "url": "https://www.fcseoul.com",
+    "open_at": "2026-11-21T14:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kl-2026-2-2-271",
+   "sport": "football",
+   "league": "K리그2",
+   "competition": "하나은행 K리그2 2026",
+   "round": 34,
+   "date": "2026-11-29",
+   "time": "14:00",
+   "home": {
+    "name": "전남",
+    "code": "K07",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원",
+    "code": "K02",
+    "team_id": "suwon_bluewings"
+   },
+   "venue": "순천 팔마 운동장",
+   "broadcast": [
+    "생활체육TV",
+    "COUPANGPLAY"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=2&gameId=271&meetSeq=2",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N78",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-03",
+   "time": "19:00",
+   "home": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "고양소노아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N79",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-03",
+   "time": "19:00",
+   "home": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "창원체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N80",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-04",
+   "time": "19:00",
+   "home": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "부산사직체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N81",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-04",
+   "time": "19:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-11-27T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N82",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-05",
+   "time": "14:00",
+   "home": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "고양소노아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N84",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-05",
+   "time": "16:30",
+   "home": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "원주DB프로미아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kl-2026-1-1-226",
+   "sport": "football",
+   "league": "K리그1",
+   "competition": "하나은행 K리그1 2026",
+   "round": 38,
+   "date": "2026-12-06",
+   "time": "14:00",
+   "home": {
+    "name": "대전",
+    "code": "K10",
+    "team_id": "daejeon"
+   },
+   "away": {
+    "name": "울산",
+    "code": "K01",
+    "team_id": null
+   },
+   "venue": "대전 월드컵 경기장",
+   "broadcast": [
+    "ENA SPORTS",
+    "COUPANGPLAY"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=226&meetSeq=1",
+   "ticket": {
+    "url": "https://www.dhcfc.kr",
+    "open_at": "2026-11-29T14:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kl-2026-1-1-227",
+   "sport": "football",
+   "league": "K리그1",
+   "competition": "하나은행 K리그1 2026",
+   "round": 38,
+   "date": "2026-12-06",
+   "time": "14:00",
+   "home": {
+    "name": "강원",
+    "code": "K21",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울",
+    "code": "K09",
+    "team_id": "fcseoul"
+   },
+   "venue": "강릉하이원아레나",
+   "broadcast": [
+    "GOLF&PBA",
+    "COUPANGPLAY"
+   ],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=227&meetSeq=1",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N85",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-06",
+   "time": "14:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-11-29T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N86",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-06",
+   "time": "14:00",
+   "home": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "대구체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N88",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-07",
+   "time": "19:00",
+   "home": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "창원체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N89",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-08",
+   "time": "19:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-01T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N90",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-09",
+   "time": "19:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-02T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N92",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-11",
+   "time": "19:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-04T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N94",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-12",
+   "time": "14:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-05T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N95",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-12",
+   "time": "16:30",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-05T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N96",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-13",
+   "time": "14:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-06T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N97",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-13",
+   "time": "14:00",
+   "home": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "울산동천체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N99",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-14",
+   "time": "19:00",
+   "home": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "창원체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N100",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-15",
+   "time": "19:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-08T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N101",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-16",
+   "time": "19:00",
+   "home": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "부산사직체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N103",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-18",
+   "time": "19:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-11T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N105",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-19",
+   "time": "14:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-12T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N106",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-19",
+   "time": "16:30",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-12T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N107",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-20",
+   "time": "14:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-13T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N108",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-20",
+   "time": "14:00",
+   "home": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "고양소노아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N109",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-20",
+   "time": "16:30",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-13T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N111",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-22",
+   "time": "19:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-15T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N114",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-24",
+   "time": "19:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-17T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N117",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-25",
+   "time": "16:30",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-18T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N118",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-26",
+   "time": "14:00",
+   "home": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "원주DB프로미아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N119",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-26",
+   "time": "16:30",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-19T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N120",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-27",
+   "time": "14:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-20T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N121",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-27",
+   "time": "14:00",
+   "home": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "대구체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N123",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-28",
+   "time": "19:00",
+   "home": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "원주DB프로미아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N124",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-29",
+   "time": "19:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-22T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N126",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-31",
+   "time": "19:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-24T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N127",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2026-12-31",
+   "time": "22:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-24T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N129",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-01",
+   "time": "16:30",
+   "home": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "울산동천체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N131",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-02",
+   "time": "14:00",
+   "home": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "대구체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N133",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-03",
+   "time": "14:00",
+   "home": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "대구체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N135",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-04",
+   "time": "19:00",
+   "home": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "부산사직체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N136",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-05",
+   "time": "19:00",
+   "home": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "고양소노아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N137",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-06",
+   "time": "19:00",
+   "home": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "대구체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N138",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-07",
+   "time": "19:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2026-12-31T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N140",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-09",
+   "time": "14:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-02T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N142",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-09",
+   "time": "16:30",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-02T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N143",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-10",
+   "time": "14:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-03T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N144",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-10",
+   "time": "14:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-03T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N146",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-11",
+   "time": "19:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-04T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N148",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-13",
+   "time": "19:00",
+   "home": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "고양소노아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N149",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-14",
+   "time": "19:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-07T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N151",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-16",
+   "time": "14:00",
+   "home": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "창원체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N152",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-16",
+   "time": "16:30",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-09T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N154",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-17",
+   "time": "14:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-10T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N155",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-17",
+   "time": "16:30",
+   "home": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "부산사직체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N156",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-18",
+   "time": "19:00",
+   "home": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "창원체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N157",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-19",
+   "time": "19:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-12T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N159",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-21",
+   "time": "19:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-14T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N160",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-22",
+   "time": "19:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-15T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N161",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-23",
+   "time": "14:00",
+   "home": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "고양소노아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N163",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-23",
+   "time": "16:30",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-16T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N164",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-24",
+   "time": "14:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-17T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N166",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-24",
+   "time": "16:30",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-17T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N169",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-26",
+   "time": "19:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-19T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N170",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-26",
+   "time": "19:00",
+   "home": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "원주DB프로미아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N172",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-27",
+   "time": "19:00",
+   "home": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "울산동천체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N174",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-01-28",
+   "time": "19:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-21T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N176",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-03",
+   "time": "19:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-27T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N177",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-04",
+   "time": "19:00",
+   "home": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "부산사직체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N178",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-04",
+   "time": "19:00",
+   "home": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "울산동천체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N179",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-05",
+   "time": "19:00",
+   "home": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "창원체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N181",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-06",
+   "time": "14:00",
+   "home": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "원주DB프로미아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N182",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-06",
+   "time": "16:30",
+   "home": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "고양소노아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N185",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-07",
+   "time": "16:30",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-01-31T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N186",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-08",
+   "time": "14:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-02-01T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N187",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-08",
+   "time": "16:30",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-02-01T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N189",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-09",
+   "time": "16:30",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-02-02T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N192",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-12",
+   "time": "19:00",
+   "home": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "창원체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N194",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-13",
+   "time": "14:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-02-06T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N195",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-13",
+   "time": "16:30",
+   "home": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "대구체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N196",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-14",
+   "time": "14:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-02-07T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N198",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-14",
+   "time": "16:30",
+   "home": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "부산사직체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N199",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-15",
+   "time": "19:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-02-08T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N201",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-17",
+   "time": "19:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-02-10T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N202",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-17",
+   "time": "19:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-02-10T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N203",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-02-18",
+   "time": "19:00",
+   "home": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "고양소노아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N205",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-04",
+   "time": "19:00",
+   "home": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "부산사직체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N207",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-05",
+   "time": "19:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-02-26T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N208",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-05",
+   "time": "19:00",
+   "home": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "대구체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N211",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-06",
+   "time": "16:30",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-02-27T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N212",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-07",
+   "time": "14:00",
+   "home": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "대구체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N213",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-07",
+   "time": "14:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-02-28T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N214",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-07",
+   "time": "16:30",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-02-28T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N215",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-08",
+   "time": "19:00",
+   "home": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "원주DB프로미아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N216",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-09",
+   "time": "19:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-02T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N218",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-11",
+   "time": "19:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-04T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N220",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-13",
+   "time": "14:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-06T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N221",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-13",
+   "time": "14:00",
+   "home": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "원주DB프로미아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N222",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-13",
+   "time": "16:30",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-06T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N223",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-14",
+   "time": "14:00",
+   "home": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "울산동천체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N224",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-14",
+   "time": "14:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-07T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N227",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-16",
+   "time": "19:00",
+   "home": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "울산동천체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N230",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-19",
+   "time": "19:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-12T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N231",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-20",
+   "time": "14:00",
+   "home": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "부산사직체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N232",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-20",
+   "time": "14:00",
+   "home": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "울산동천체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N234",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-21",
+   "time": "14:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-14T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N236",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-21",
+   "time": "17:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-14T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N237",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-22",
+   "time": "19:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-15T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N239",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-24",
+   "time": "19:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-17T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N240",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-25",
+   "time": "19:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-18T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N242",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-27",
+   "time": "14:00",
+   "home": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "창원체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N243",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-27",
+   "time": "14:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-20T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N244",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-27",
+   "time": "16:30",
+   "home": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "원주DB프로미아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N245",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-28",
+   "time": "14:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-21T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N246",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-28",
+   "time": "14:00",
+   "home": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "울산동천체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N247",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-28",
+   "time": "16:30",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-21T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N248",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-29",
+   "time": "19:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-22T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N249",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-30",
+   "time": "19:00",
+   "home": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "away": {
+    "name": "원주 DB",
+    "code": "16",
+    "team_id": null
+   },
+   "venue": "수원 KT 소닉붐 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-23T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N250",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-03-31",
+   "time": "19:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-24T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N251",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-01",
+   "time": "19:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-25T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N252",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-02",
+   "time": "19:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-26T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N254",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-03",
+   "time": "14:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-27T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N255",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-03",
+   "time": "16:30",
+   "home": {
+    "name": "울산 현대모비스",
+    "code": "10",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "울산동천체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N256",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-04",
+   "time": "14:00",
+   "home": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "창원체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N257",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-04",
+   "time": "14:00",
+   "home": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "away": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-03-28T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N260",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-06",
+   "time": "19:00",
+   "home": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "부산사직체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N262",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-08",
+   "time": "19:00",
+   "home": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "away": {
+    "name": "대구 한국가스공사",
+    "code": "64",
+    "team_id": null
+   },
+   "venue": "안양 정관장 아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-04-01T11:00:00+09:00",
+    "estimated": true
+   }
+  },
+  {
+   "id": "kbl-S49G01N263",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-09",
+   "time": "19:00",
+   "home": {
+    "name": "부산 KCC",
+    "code": "60",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "부산사직체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N265",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-09",
+   "time": "19:00",
+   "home": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "away": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "venue": "고양소노아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N266",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-11",
+   "time": "14:00",
+   "home": {
+    "name": "고양 소노",
+    "code": "66",
+    "team_id": null
+   },
+   "away": {
+    "name": "안양 정관장",
+    "code": "70",
+    "team_id": "jungkwanjang"
+   },
+   "venue": "고양소노아레나",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N267",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-11",
+   "time": "14:00",
+   "home": {
+    "name": "창원 LG",
+    "code": "50",
+    "team_id": null
+   },
+   "away": {
+    "name": "수원 KT",
+    "code": "06",
+    "team_id": "kt_sonicboom"
+   },
+   "venue": "창원체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": null
+  },
+  {
+   "id": "kbl-S49G01N269",
+   "sport": "basketball",
+   "league": "KBL",
+   "competition": "KBL 2026-2027 정규시즌",
+   "round": null,
+   "date": "2027-04-11",
+   "time": "14:00",
+   "home": {
+    "name": "서울 SK",
+    "code": "55",
+    "team_id": "sk_knights"
+   },
+   "away": {
+    "name": "서울 삼성",
+    "code": "35",
+    "team_id": "samsung_thunders"
+   },
+   "venue": "잠실학생체육관",
+   "broadcast": [],
+   "status": "예정",
+   "score": null,
+   "info_url": "https://www.kbl.or.kr",
+   "ticket": {
+    "url": "https://www.kbl.or.kr",
+    "open_at": "2027-04-04T11:00:00+09:00",
+    "estimated": true
+   }
+  }
+ ]
+}
