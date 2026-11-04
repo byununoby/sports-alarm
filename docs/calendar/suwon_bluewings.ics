@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:kl-2026-2-2-235@sports-alarm
-DTSTAMP:20261104T034826Z
+DTSTAMP:20261104T035523Z
 DTSTART:20261025T050000Z
 DTEND:20261025T070000Z
 SUMMARY:[축구·원정] 성남 vs 수원
@@ -21,7 +21,7 @@ URL:https://www.kleague.com/match.do?year=2026&leagueId=2&gameId=235&meet
 END:VEVENT
 BEGIN:VEVENT
 UID:kl-2026-2-2-244@sports-alarm
-DTSTAMP:20261104T034826Z
+DTSTAMP:20261104T035523Z
 DTSTART:20261031T073000Z
 DTEND:20261031T093000Z
 SUMMARY:[축구·원정] 대구 vs 수원
@@ -33,14 +33,15 @@ URL:https://www.kleague.com/match.do?year=2026&leagueId=2&gameId=244&meet
 END:VEVENT
 BEGIN:VEVENT
 UID:kl-2026-2-2-254@sports-alarm
-DTSTAMP:20261104T034826Z
+DTSTAMP:20261104T035523Z
 DTSTART:20261108T050000Z
 DTEND:20261108T070000Z
 SUMMARY:[축구·홈] 수원 vs 용인
 LOCATION:수원 월드컵 경기장
 DESCRIPTION:하나은행 K리그2 2026\n장소: 수원 월드컵 경기
- 장\n중계: MAXPORTS\, COUPANGPLAY\n예매: https://www.bluewings.kr
-URL:https://www.bluewings.kr
+ 장\n중계: MAXPORTS\, COUPANGPLAY\n예매: https://nol.yanolja.com/tic
+ ket/genre/sports/bluewings
+URL:https://nol.yanolja.com/ticket/genre/sports/bluewings
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[축구·홈] 수원 vs 용인
@@ -54,25 +55,36 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kl-2026-2-2-254-ticket@sports-alarm
-DTSTAMP:20261104T034826Z
-DTSTART:20261101T050000Z
-DTEND:20261101T053000Z
+DTSTAMP:20261104T035523Z
+DTSTART:20261104T050000Z
+DTEND:20261104T053000Z
 SUMMARY:[티켓오픈] 수원 vs 용인 (11/8)
-DESCRIPTION:예매 링크: https://www.bluewings.kr\n오픈 시각은 con
- fig.json 규칙으로 계산한 예상값. 구단 공지 확인.
-URL:https://www.bluewings.kr
+DESCRIPTION:예매 링크: https://nol.yanolja.com/ticket/genre/sports/bl
+ uewings\n오픈 시각은 구단 규칙 기준 예상값. 구단 공지 
+ 확인.
+URL:https://nol.yanolja.com/ticket/genre/sports/bluewings
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[티켓오픈] 수원 vs 용인 (11/8)
+TRIGGER:-PT60M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[티켓오픈] 수원 vs 용인 (11/8)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kl-2026-2-2-257@sports-alarm
-DTSTAMP:20261104T034826Z
+DTSTAMP:20261104T035523Z
 DTSTART:20261121T050000Z
 DTEND:20261121T070000Z
 SUMMARY:[축구·홈] 수원 vs 경남
 LOCATION:수원 월드컵 경기장
 DESCRIPTION:하나은행 K리그2 2026\n장소: 수원 월드컵 경기
- 장\n중계: 생활체육TV\, COUPANGPLAY\n예매: https://www.bluewings
- .kr
-URL:https://www.bluewings.kr
+ 장\n중계: 생활체육TV\, COUPANGPLAY\n예매: https://nol.yanolja.c
+ om/ticket/genre/sports/bluewings
+URL:https://nol.yanolja.com/ticket/genre/sports/bluewings
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[축구·홈] 수원 vs 경남
@@ -86,13 +98,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kl-2026-2-2-257-ticket@sports-alarm
-DTSTAMP:20261104T034826Z
-DTSTART:20261114T050000Z
-DTEND:20261114T053000Z
+DTSTAMP:20261104T035523Z
+DTSTART:20261118T050000Z
+DTEND:20261118T053000Z
 SUMMARY:[티켓오픈] 수원 vs 경남 (11/21)
-DESCRIPTION:예매 링크: https://www.bluewings.kr\n오픈 시각은 con
- fig.json 규칙으로 계산한 예상값. 구단 공지 확인.
-URL:https://www.bluewings.kr
+DESCRIPTION:예매 링크: https://nol.yanolja.com/ticket/genre/sports/bl
+ uewings\n오픈 시각은 구단 규칙 기준 예상값. 구단 공지 
+ 확인.
+URL:https://nol.yanolja.com/ticket/genre/sports/bluewings
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[티켓오픈] 수원 vs 경남 (11/21)
@@ -106,7 +119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kl-2026-2-2-271@sports-alarm
-DTSTAMP:20261104T034826Z
+DTSTAMP:20261104T035523Z
 DTSTART:20261129T050000Z
 DTEND:20261129T070000Z
 SUMMARY:[축구·원정] 전남 vs 수원

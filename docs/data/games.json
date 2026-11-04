@@ -1,26 +1,26 @@
 {
- "updated_at": "2026-11-04T12:48+09:00",
+ "updated_at": "2026-11-04T12:55+09:00",
  "teams": [
   {
    "id": "suwon_bluewings",
    "name": "수원삼성",
    "sport": "football",
    "color": "#1A4FA0",
-   "ticket_url": "https://www.bluewings.kr"
+   "ticket_url": "https://nol.yanolja.com/ticket/genre/sports/bluewings"
   },
   {
    "id": "daejeon",
    "name": "대전하나시티즌",
    "sport": "football",
    "color": "#7B1E3A",
-   "ticket_url": "https://www.dhcfc.kr"
+   "ticket_url": "https://www.dhcfc.kr/ti/ti.php"
   },
   {
    "id": "fcseoul",
    "name": "FC서울",
    "sport": "football",
    "color": "#B8202C",
-   "ticket_url": "https://www.fcseoul.com"
+   "ticket_url": "https://m.fcseoul.com/fcapp/ticket/appViewTicket"
   },
   {
    "id": "kt_sonicboom",
@@ -82,7 +82,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-14T11:00:00+09:00",
+    "open_at": "2026-10-15T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -116,7 +116,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-16T11:00:00+09:00",
+    "open_at": "2026-10-18T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -181,8 +181,8 @@
    ],
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=198&meetSeq=1",
    "ticket": {
-    "url": "https://www.fcseoul.com",
-    "open_at": "2026-10-17T14:00:00+09:00",
+    "url": "https://m.fcseoul.com/fcapp/ticket/appViewTicket",
+    "open_at": "2026-10-19T18:00:00+09:00",
     "estimated": true
    }
   },
@@ -216,7 +216,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-17T11:00:00+09:00",
+    "open_at": "2026-10-19T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -309,7 +309,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-18T11:00:00+09:00",
+    "open_at": "2026-10-20T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -343,7 +343,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-18T11:00:00+09:00",
+    "open_at": "2026-10-20T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -407,7 +407,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-20T11:00:00+09:00",
+    "open_at": "2026-10-22T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -502,7 +502,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-24T11:00:00+09:00",
+    "open_at": "2026-10-26T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -597,8 +597,8 @@
    ],
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=203&meetSeq=1",
    "ticket": {
-    "url": "https://www.fcseoul.com",
-    "open_at": "2026-10-25T14:00:00+09:00",
+    "url": "https://m.fcseoul.com/fcapp/ticket/appViewTicket",
+    "open_at": "2026-10-27T18:00:00+09:00",
     "estimated": true
    }
   },
@@ -632,7 +632,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-25T11:00:00+09:00",
+    "open_at": "2026-10-26T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -693,7 +693,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-28T11:00:00+09:00",
+    "open_at": "2026-10-30T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -751,7 +751,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-30T11:00:00+09:00",
+    "open_at": "2026-11-01T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -809,7 +809,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-31T11:00:00+09:00",
+    "open_at": "2026-11-02T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -840,8 +840,8 @@
    "score": null,
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=207&meetSeq=1",
    "ticket": {
-    "url": "https://www.fcseoul.com",
-    "open_at": "2026-11-01T14:00:00+09:00",
+    "url": "https://m.fcseoul.com/fcapp/ticket/appViewTicket",
+    "open_at": "2026-11-03T18:00:00+09:00",
     "estimated": true
    }
   },
@@ -872,8 +872,8 @@
    "score": null,
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=208&meetSeq=1",
    "ticket": {
-    "url": "https://www.dhcfc.kr",
-    "open_at": "2026-11-01T14:00:00+09:00",
+    "url": "https://www.dhcfc.kr/ti/ti.php",
+    "open_at": "2026-11-03T13:00:00+09:00",
     "estimated": true
    }
   },
@@ -904,8 +904,8 @@
    "score": null,
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=2&gameId=254&meetSeq=2",
    "ticket": {
-    "url": "https://www.bluewings.kr",
-    "open_at": "2026-11-01T14:00:00+09:00",
+    "url": "https://nol.yanolja.com/ticket/genre/sports/bluewings",
+    "open_at": "2026-11-04T14:00:00+09:00",
     "estimated": true
    }
   },
@@ -936,7 +936,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-11-01T11:00:00+09:00",
+    "open_at": "2026-11-03T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -994,7 +994,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-11-02T11:00:00+09:00",
+    "open_at": "2026-11-03T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -1106,7 +1106,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-11-07T11:00:00+09:00",
+    "open_at": "2026-11-08T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -1164,7 +1164,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-11-09T11:00:00+09:00",
+    "open_at": "2026-11-11T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -1222,7 +1222,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-11-11T11:00:00+09:00",
+    "open_at": "2026-11-12T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -1253,7 +1253,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-11-12T11:00:00+09:00",
+    "open_at": "2026-11-14T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -1284,7 +1284,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-11-12T11:00:00+09:00",
+    "open_at": "2026-11-14T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -1343,8 +1343,8 @@
    "score": null,
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=2&gameId=257&meetSeq=2",
    "ticket": {
-    "url": "https://www.bluewings.kr",
-    "open_at": "2026-11-14T14:00:00+09:00",
+    "url": "https://nol.yanolja.com/ticket/genre/sports/bluewings",
+    "open_at": "2026-11-18T14:00:00+09:00",
     "estimated": true
    }
   },
@@ -1403,8 +1403,8 @@
    "score": null,
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=217&meetSeq=1",
    "ticket": {
-    "url": "https://www.fcseoul.com",
-    "open_at": "2026-11-21T14:00:00+09:00",
+    "url": "https://m.fcseoul.com/fcapp/ticket/appViewTicket",
+    "open_at": "2026-11-23T18:00:00+09:00",
     "estimated": true
    }
   },
@@ -1536,7 +1536,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-11-27T11:00:00+09:00",
+    "open_at": "2026-11-29T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -1617,8 +1617,8 @@
    "score": null,
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=226&meetSeq=1",
    "ticket": {
-    "url": "https://www.dhcfc.kr",
-    "open_at": "2026-11-29T14:00:00+09:00",
+    "url": "https://www.dhcfc.kr/ti/ti.php",
+    "open_at": "2026-12-01T13:00:00+09:00",
     "estimated": true
    }
   },
@@ -1675,7 +1675,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-11-29T11:00:00+09:00",
+    "open_at": "2026-12-01T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -1754,7 +1754,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-01T11:00:00+09:00",
+    "open_at": "2026-12-03T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -1783,7 +1783,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-02T11:00:00+09:00",
+    "open_at": "2026-12-03T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -1812,7 +1812,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-04T11:00:00+09:00",
+    "open_at": "2026-12-06T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -1841,7 +1841,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-05T11:00:00+09:00",
+    "open_at": "2026-12-07T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -1870,7 +1870,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-05T11:00:00+09:00",
+    "open_at": "2026-12-06T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -1899,7 +1899,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-06T11:00:00+09:00",
+    "open_at": "2026-12-08T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -1978,7 +1978,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-08T11:00:00+09:00",
+    "open_at": "2026-12-10T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -2032,7 +2032,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-11T11:00:00+09:00",
+    "open_at": "2026-12-12T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -2061,7 +2061,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-12T11:00:00+09:00",
+    "open_at": "2026-12-14T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -2090,7 +2090,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-12T11:00:00+09:00",
+    "open_at": "2026-12-14T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -2119,7 +2119,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-13T11:00:00+09:00",
+    "open_at": "2026-12-15T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -2173,7 +2173,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-13T11:00:00+09:00",
+    "open_at": "2026-12-14T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -2202,7 +2202,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-15T11:00:00+09:00",
+    "open_at": "2026-12-16T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -2231,7 +2231,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-17T11:00:00+09:00",
+    "open_at": "2026-12-19T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -2260,7 +2260,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-18T11:00:00+09:00",
+    "open_at": "2026-12-20T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -2314,7 +2314,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-19T11:00:00+09:00",
+    "open_at": "2026-12-21T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -2343,7 +2343,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-20T11:00:00+09:00",
+    "open_at": "2026-12-22T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -2422,7 +2422,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-22T11:00:00+09:00",
+    "open_at": "2026-12-24T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -2451,7 +2451,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-24T11:00:00+09:00",
+    "open_at": "2026-12-26T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -2480,7 +2480,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-24T11:00:00+09:00",
+    "open_at": "2026-12-26T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -2659,7 +2659,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2026-12-31T11:00:00+09:00",
+    "open_at": "2027-01-01T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -2688,7 +2688,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-02T11:00:00+09:00",
+    "open_at": "2027-01-04T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -2717,7 +2717,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-02T11:00:00+09:00",
+    "open_at": "2027-01-03T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -2746,7 +2746,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-03T11:00:00+09:00",
+    "open_at": "2027-01-05T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -2775,7 +2775,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-03T11:00:00+09:00",
+    "open_at": "2027-01-05T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -2804,7 +2804,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-04T11:00:00+09:00",
+    "open_at": "2027-01-06T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -2858,7 +2858,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-07T11:00:00+09:00",
+    "open_at": "2027-01-09T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -2912,7 +2912,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-09T11:00:00+09:00",
+    "open_at": "2027-01-11T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -2941,7 +2941,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-10T11:00:00+09:00",
+    "open_at": "2027-01-12T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -3020,7 +3020,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-12T11:00:00+09:00",
+    "open_at": "2027-01-14T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -3049,7 +3049,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-14T11:00:00+09:00",
+    "open_at": "2027-01-16T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -3078,7 +3078,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-15T11:00:00+09:00",
+    "open_at": "2027-01-17T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -3132,7 +3132,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-16T11:00:00+09:00",
+    "open_at": "2027-01-17T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -3161,7 +3161,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-17T11:00:00+09:00",
+    "open_at": "2027-01-19T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -3190,7 +3190,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-17T11:00:00+09:00",
+    "open_at": "2027-01-18T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -3219,7 +3219,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-19T11:00:00+09:00",
+    "open_at": "2027-01-21T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -3298,7 +3298,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-21T11:00:00+09:00",
+    "open_at": "2027-01-23T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -3327,7 +3327,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-27T11:00:00+09:00",
+    "open_at": "2027-01-28T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -3481,7 +3481,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-01-31T11:00:00+09:00",
+    "open_at": "2027-02-01T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -3510,7 +3510,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-02-01T11:00:00+09:00",
+    "open_at": "2027-02-03T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -3539,7 +3539,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-02-01T11:00:00+09:00",
+    "open_at": "2027-02-03T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -3568,7 +3568,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-02-02T11:00:00+09:00",
+    "open_at": "2027-02-04T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -3622,7 +3622,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-02-06T11:00:00+09:00",
+    "open_at": "2027-02-08T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -3676,7 +3676,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-02-07T11:00:00+09:00",
+    "open_at": "2027-02-09T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -3730,7 +3730,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-02-08T11:00:00+09:00",
+    "open_at": "2027-02-10T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -3759,7 +3759,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-02-10T11:00:00+09:00",
+    "open_at": "2027-02-12T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -3788,7 +3788,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-02-10T11:00:00+09:00",
+    "open_at": "2027-02-12T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -3867,7 +3867,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-02-26T11:00:00+09:00",
+    "open_at": "2027-02-28T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -3921,7 +3921,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-02-27T11:00:00+09:00",
+    "open_at": "2027-03-01T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -3975,7 +3975,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-02-28T11:00:00+09:00",
+    "open_at": "2027-03-02T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -4004,7 +4004,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-02-28T11:00:00+09:00",
+    "open_at": "2027-03-01T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4058,7 +4058,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-02T11:00:00+09:00",
+    "open_at": "2027-03-03T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4087,7 +4087,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-04T11:00:00+09:00",
+    "open_at": "2027-03-06T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -4116,7 +4116,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-06T11:00:00+09:00",
+    "open_at": "2027-03-08T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -4170,7 +4170,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-06T11:00:00+09:00",
+    "open_at": "2027-03-08T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4224,7 +4224,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-07T11:00:00+09:00",
+    "open_at": "2027-03-08T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4278,7 +4278,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-12T11:00:00+09:00",
+    "open_at": "2027-03-13T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4357,7 +4357,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-14T11:00:00+09:00",
+    "open_at": "2027-03-16T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -4386,7 +4386,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-14T11:00:00+09:00",
+    "open_at": "2027-03-15T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4415,7 +4415,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-15T11:00:00+09:00",
+    "open_at": "2027-03-17T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -4444,7 +4444,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-17T11:00:00+09:00",
+    "open_at": "2027-03-19T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -4473,7 +4473,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-18T11:00:00+09:00",
+    "open_at": "2027-03-20T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4527,7 +4527,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-20T11:00:00+09:00",
+    "open_at": "2027-03-22T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -4581,7 +4581,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-21T11:00:00+09:00",
+    "open_at": "2027-03-23T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -4635,7 +4635,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-21T11:00:00+09:00",
+    "open_at": "2027-03-23T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -4664,7 +4664,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-22T11:00:00+09:00",
+    "open_at": "2027-03-24T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4693,7 +4693,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-23T11:00:00+09:00",
+    "open_at": "2027-03-25T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -4722,7 +4722,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-24T11:00:00+09:00",
+    "open_at": "2027-03-25T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4751,7 +4751,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-25T11:00:00+09:00",
+    "open_at": "2027-03-27T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4780,7 +4780,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-26T11:00:00+09:00",
+    "open_at": "2027-03-27T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4809,7 +4809,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-27T11:00:00+09:00",
+    "open_at": "2027-03-29T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4888,7 +4888,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-03-28T11:00:00+09:00",
+    "open_at": "2027-03-29T11:00:00+09:00",
     "estimated": true
    }
   },
@@ -4942,7 +4942,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-04-01T11:00:00+09:00",
+    "open_at": "2027-04-03T15:00:00+09:00",
     "estimated": true
    }
   },
@@ -5071,7 +5071,7 @@
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
-    "open_at": "2027-04-04T11:00:00+09:00",
+    "open_at": "2027-04-06T11:00:00+09:00",
     "estimated": true
    }
   }
