@@ -186,7 +186,7 @@ function render(){
   document.getElementById("upcoming").innerHTML = ups.length ? ups.map(g => {
     const p = parts(g.ticket.open_at);
     return `<li><span class="when">${pad(p.m)}.${pad(p.d)} ${p.hm}</span>
-      <span>${esc(g.home.name)} vs ${esc(g.away.name)} <small>(${g.date.slice(5).replace("-", ".")} 경기)</small></span>
+      <span>${esc(g.home.name)} vs ${esc(g.away.name)} <small>(${g.date.slice(5).replace("-", ".")} 경기, ${g.ticket.estimated ? "예상" : "확정"})</small></span>
       <a href="${esc(g.ticket.url)}" target="_blank" rel="noopener">예매 페이지</a></li>`;
   }).join("") : `<li class="empty">선택한 팀의 예정된 티켓 오픈이 없습니다.</li>`;
 
@@ -216,7 +216,7 @@ function card(g, colors, names, now){
   } else if (isHome && g.ticket){
     const o = kst(g.ticket.open_at);
     const opened = o <= now;
-    stub = `<div class="stub"><span class="lab">${opened ? "예매 진행 중 (예상)" : "티켓 오픈 예상"}</span>
+    stub = `<div class="stub"><span class="lab">${opened ? "예매 진행 중" : (g.ticket.estimated ? "티켓 오픈 예상" : "티켓 오픈 확정")}</span>
       <span class="open">${fmtOpen(g.ticket.open_at)}</span>
       <a href="${esc(g.ticket.url)}" target="_blank" rel="noopener">예매하기</a></div>`;
   } else {
