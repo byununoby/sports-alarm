@@ -165,18 +165,62 @@ def normalize_kbl(it: dict, teams: list[dict]) -> dict | None:
     }
 
 
-def attach_ticket(game: dict, teams_by_id: dict) -> None:
-    """홈팀이 관심팀이면 티켓 오픈 예상 시각과 예매 링크를 붙인다."""
+WEEKDAYS = {"mon": 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6}
+
+
+def rule_open_at(gdate: date, rule: dict) -> datetime:
+    """config.json 의 ticket_open 규칙으로 오픈 시각 계산.
+
+    {"days_before": 5, "time": "18:00"}  -> 경기 5일 전 18:00
+    {"weekday": "wed", "time": "14:00"}  -> 경기가 있는 주(월~일)의 수요일 14:00.
+                                            그 날이 경기일 당일이거나 이후면 한 주 전 수요일.
+    """
+    hh, mm = (rule.get("time") or "14:00").split(":")
+    if "weekday" in rule:
+        wd = WEEKDAYS[rule["weekday"].lower()[:3]]
+        d = gdate - timedelta(days=gdate.weekday()) + timedelta(days=wd)
+        if d >= gdate:
+            d -= timedelta(days=7)
+    else:
+        d = gdate - timedelta(days=int(rule.get("days_before", 7)))
+    return datetime.combine(d, datetime.min.time(), KST).replace(hour=int(hh), minute=int(mm))
+
+
+def load_overrides() -> dict:
+    """overrides.json: (홈팀id, 경기날짜) -> 확정 오픈 시각/링크."""
+    p = ROOT / "overrides.json"
+    if not p.exists():
+        return {}
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        print(f"[경고] overrides.json 형식 오류, 무시함: {e}", file=sys.stderr)
+        return {}
+    out = {}
+    for o in data.get("games", []):
+        try:
+            key = (o["team"], o["date"])
+            datetime.strptime(o["open_at"], "%Y-%m-%d %H:%M")
+            out[key] = o
+        except (KeyError, ValueError) as e:
+            print(f"[경고] overrides.json 항목 무시 {o}: {e}", file=sys.stderr)
+    return out
+
+
+def attach_ticket(game: dict, teams_by_id: dict, overrides: dict) -> None:
+    """홈팀이 관심팀이면 티켓 오픈 시각과 예매 링크를 붙인다. overrides.json 값이 있으면 우선."""
     home_id = game["home"]["team_id"]
     if not home_id:
         game["ticket"] = None
         return
     team = teams_by_id[home_id]
-    rule = team.get("ticket_open") or {}
-    gdate = date.fromisoformat(game["date"])
-    hh, mm = (rule.get("time") or "14:00").split(":")
-    open_at = datetime.combine(gdate - timedelta(days=int(rule.get("days_before", 7))),
-                               datetime.min.time(), KST).replace(hour=int(hh), minute=int(mm))
+    ov = overrides.get((home_id, game["date"]))
+    if ov:
+        open_at = datetime.strptime(ov["open_at"], "%Y-%m-%d %H:%M").replace(tzinfo=KST)
+        game["ticket"] = {"url": ov.get("url") or team["ticket_url"], "open_at": open_at.isoformat(),
+                          "estimated": False, "note": ov.get("note")}
+        return
+    open_at = rule_open_at(date.fromisoformat(game["date"]), team.get("ticket_open") or {})
     game["ticket"] = {"url": team["ticket_url"], "open_at": open_at.isoformat(), "estimated": True}
 
 
@@ -259,11 +303,11 @@ def build_ics(games: list[dict], cfg: dict, cal_name: str, now: datetime, team_i
             t = None  # 팀 캘린더에는 그 팀 홈경기 티켓 일정만
         if t and st > now:
             op = datetime.fromisoformat(t["open_at"])
-            title = f"[티켓오픈] {g['home']['name']} vs {g['away']['name']} ({st.month}/{st.day})"
+            title = f"[티켓오픈{'' if t['estimated'] else '·확정'}] {g['home']['name']} vs {g['away']['name']} ({st.month}/{st.day})"
             lines += ["BEGIN:VEVENT", f"UID:{g['id']}-ticket@sports-alarm", f"DTSTAMP:{stamp}",
                       f"DTSTART:{utc(op)}", f"DTEND:{utc(op + timedelta(minutes=30))}",
                       f"SUMMARY:{ics_escape(title)}",
-                      f"DESCRIPTION:{ics_escape('예매 링크: ' + t['url'] + chr(10) + '오픈 시각은 config.json 규칙으로 계산한 예상값. 구단 공지 확인.')}",
+                      f"DESCRIPTION:{ics_escape('예매 링크: ' + t['url'] + chr(10) + ('오픈 시각은 구단 규칙 기준 예상값. 구단 공지 확인.' if t['estimated'] else '오픈 시각 확정 (overrides.json)'))}",
                       f"URL:{t['url']}"]
             if op > now:
                 lines += alarm_lines(cfg["ticket_alarms_minutes"], title)
@@ -301,8 +345,9 @@ def main() -> int:
     games = [g for g in (normalize_kleague(it, teams) for it in kl_raw) if g]
     games += [g for g in (normalize_kbl(it, teams) for it in kbl_raw) if g]
     games = [g for g in games if g["date"] and start <= date.fromisoformat(g["date"]) <= end]
+    overrides = load_overrides()
     for g in games:
-        attach_ticket(g, teams_by_id)
+        attach_ticket(g, teams_by_id, overrides)
     games.sort(key=lambda g: (g["date"], g["time"] or "99:99"))
 
     if not games:

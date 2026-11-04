@@ -61,10 +61,11 @@ def build_message(data: dict, now: datetime) -> str | None:
                        + (f" / 중계 {', '.join(g['broadcast'])}" if g["broadcast"] else ""))
     for title, items in (("오늘 티켓 오픈", opens_today), ("내일 티켓 오픈", opens_tomorrow)):
         if items:
-            out.append(f"\n<b>{title}</b> (예상 시각, 구단 공지 확인)")
+            out.append(f"\n<b>{title}</b>")
             for op, g in sorted(items, key=lambda x: x[0]):
                 gd = datetime.fromisoformat(g["date"])
-                out.append(f"{op:%H:%M} 오픈  {label(g, team_names)} ({gd.month}/{gd.day} {g['time'] or ''})\n"
+                tag = "예상" if g["ticket"].get("estimated", True) else "확정"
+                out.append(f"{op:%H:%M} 오픈({tag})  {label(g, team_names)} ({gd.month}/{gd.day} {g['time'] or ''})\n"
                            f"  <a href=\"{g['ticket']['url']}\">예매 페이지 열기</a>")
     return "\n".join(out)
 
