@@ -1,0 +1,54 @@
+{
+  "_설명": "팀 목록과 알림 규칙. ticket_open 은 '경기 N일 전 HH:MM' 규칙이다. 구단 공지와 다르면 여기 숫자만 고치면 된다.",
+  "timezone": "Asia/Seoul",
+  "lookahead_days": 200,
+  "game_alarms_minutes": [1440, 180],
+  "ticket_alarms_minutes": [60, 10],
+  "teams": [
+    {
+      "id": "suwon_bluewings", "name": "수원삼성", "sport": "football",
+      "kleague_code": "K02", "names": ["수원", "수원 삼성", "수원삼성"],
+      "color": "#1A4FA0",
+      "ticket_url": "https://www.bluewings.kr",
+      "ticket_open": {"days_before": 7, "time": "14:00"}
+    },
+    {
+      "id": "daejeon", "name": "대전하나시티즌", "sport": "football",
+      "kleague_code": "K10", "names": ["대전", "대전 하나 시티즌"],
+      "color": "#7B1E3A",
+      "ticket_url": "https://www.dhcfc.kr",
+      "ticket_open": {"days_before": 7, "time": "14:00"}
+    },
+    {
+      "id": "fcseoul", "name": "FC서울", "sport": "football",
+      "kleague_code": "K09", "names": ["서울", "FC서울"],
+      "color": "#B8202C",
+      "ticket_url": "https://www.fcseoul.com",
+      "ticket_open": {"days_before": 7, "time": "14:00"}
+    },
+    {
+      "id": "kt_sonicboom", "name": "수원 KT", "sport": "basketball",
+      "kbl_code": "06", "color": "#E4002B",
+      "ticket_url": "https://www.kbl.or.kr",
+      "ticket_open": {"days_before": 7, "time": "11:00"}
+    },
+    {
+      "id": "jungkwanjang", "name": "안양 정관장", "sport": "basketball",
+      "kbl_code": "70", "color": "#9E1B32",
+      "ticket_url": "https://www.kbl.or.kr",
+      "ticket_open": {"days_before": 7, "time": "11:00"}
+    },
+    {
+      "id": "samsung_thunders", "name": "서울 삼성", "sport": "basketball",
+      "kbl_code": "35", "color": "#0A3A8C",
+      "ticket_url": "https://www.kbl.or.kr",
+      "ticket_open": {"days_before": 7, "time": "11:00"}
+    },
+    {
+      "id": "sk_knights", "name": "서울 SK", "sport": "basketball",
+      "kbl_code": "55", "color": "#D9261C",
+      "ticket_url": "https://www.kbl.or.kr",
+      "ticket_open": {"days_before": 7, "time": "11:00"}
+    }
+  ]
+}
