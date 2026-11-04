@@ -1,0 +1,61 @@
+{
+  "_설명": "팀 목록과 티켓 오픈 규칙. 규칙 2종류: {\"days_before\": 5, \"time\": \"18:00\"} = 경기 5일 전 18시 / {\"weekday\": \"wed\", \"time\": \"14:00\"} = 경기 주의 수요일 14시. 규칙과 다른 경기는 overrides.json 에 적는다.",
+  "timezone": "Asia/Seoul",
+  "lookahead_days": 200,
+  "game_alarms_minutes": [1440, 180],
+  "ticket_alarms_minutes": [60, 10],
+  "teams": [
+    {
+      "id": "suwon_bluewings", "name": "수원삼성", "sport": "football",
+      "kleague_code": "K02", "names": ["수원", "수원 삼성", "수원삼성"],
+      "color": "#1A4FA0",
+      "ticket_url": "https://nol.yanolja.com/ticket/genre/sports/bluewings",
+      "ticket_open": {"weekday": "wed", "time": "14:00"},
+      "_근거": "2026 구단 예매 페이지: 경기 주 월요일 14시 선예매(멤버십), 수요일 14시 일반예매. 예매처 NOL"
+    },
+    {
+      "id": "daejeon", "name": "대전하나시티즌", "sport": "football",
+      "kleague_code": "K10", "names": ["대전", "대전 하나 시티즌"],
+      "color": "#7B1E3A",
+      "ticket_url": "https://www.dhcfc.kr/ti/ti.php",
+      "ticket_open": {"days_before": 5, "time": "13:00"},
+      "_근거": "2026 시즌멤버 발표: 선예매 7일 전, 일반예매 5일 전. 일반예매 13시. 예매처 티켓링크"
+    },
+    {
+      "id": "fcseoul", "name": "FC서울", "sport": "football",
+      "kleague_code": "K09", "names": ["서울", "FC서울"],
+      "color": "#B8202C",
+      "ticket_url": "https://m.fcseoul.com/fcapp/ticket/appViewTicket",
+      "ticket_open": {"days_before": 5, "time": "18:00"},
+      "_근거": "2026 구단 예매 안내: 홈경기 5일 전 18시 오픈"
+    },
+    {
+      "id": "kt_sonicboom", "name": "수원 KT", "sport": "basketball",
+      "kbl_code": "06", "color": "#E4002B",
+      "ticket_url": "https://www.kbl.or.kr",
+      "ticket_open": {"days_before": 5, "time": "15:00"},
+      "_근거": "2026 오픈매치데이 기준(5일 전 15시). 정규리그는 다를 수 있음, 첫 홈경기 공지로 확인"
+    },
+    {
+      "id": "jungkwanjang", "name": "안양 정관장", "sport": "basketball",
+      "kbl_code": "70", "color": "#9E1B32",
+      "ticket_url": "https://www.kbl.or.kr",
+      "ticket_open": {"days_before": 5, "time": "15:00"},
+      "_근거": "2026 오픈매치데이 기준(5일 전 15시). 정규리그는 다를 수 있음"
+    },
+    {
+      "id": "samsung_thunders", "name": "서울 삼성", "sport": "basketball",
+      "kbl_code": "35", "color": "#0A3A8C",
+      "ticket_url": "https://www.kbl.or.kr",
+      "ticket_open": {"days_before": 6, "time": "11:00"},
+      "_근거": "2026 오픈매치데이 기준(6일 전 11시, 멤버십은 7일 전). 정규리그는 다를 수 있음"
+    },
+    {
+      "id": "sk_knights", "name": "서울 SK", "sport": "basketball",
+      "kbl_code": "55", "color": "#D9261C",
+      "ticket_url": "https://www.kbl.or.kr",
+      "ticket_open": {"days_before": 5, "time": "11:00"},
+      "_근거": "2026 오픈매치데이 기준(5일 전 11시). 정규리그는 다를 수 있음"
+    }
+  ]
+}
