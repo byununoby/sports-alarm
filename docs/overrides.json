@@ -1,6 +1,0 @@
-{
-  "_설명": "규칙과 다른 경기만 적는다. team = config.json 의 팀 id, date = 경기 날짜, open_at = 실제 오픈 시각(YYYY-MM-DD HH:MM). url, note 는 없어도 됨. 아래 예시 항목은 지워도 되고 그대로 둬도 된다(해당 경기가 없으면 무시됨).",
-  "games": [
-    {"team": "fcseoul", "date": "2099-01-01", "open_at": "2098-12-25 18:00", "url": "", "note": "예시 항목"}
-  ]
-}
