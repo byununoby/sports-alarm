@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07T11:29+09:00",
+ "updated_at": "2026-11-07T20:31+09:00",
  "teams": [
   {
    "id": "suwon_bluewings",
@@ -718,8 +718,11 @@
    "broadcast": [
     "IB SPORTS"
    ],
-   "status": "예정",
-   "score": null,
+   "status": "종료",
+   "score": [
+    84,
+    76
+   ],
    "info_url": "https://www.kbl.or.kr",
    "ticket": null
   },
@@ -745,8 +748,11 @@
    "broadcast": [
     "tvN SPORTS"
    ],
-   "status": "예정",
-   "score": null,
+   "status": "종료",
+   "score": [
+    92,
+    81
+   ],
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
