@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T10:58+09:00",
+ "updated_at": "2026-11-08T20:41+09:00",
  "teams": [
   {
    "id": "suwon_bluewings",
@@ -653,8 +653,11 @@
     "JTBC SPORTS",
     "COUPANGPLAY"
    ],
-   "status": "예정",
-   "score": null,
+   "status": "종료",
+   "score": [
+    1,
+    2
+   ],
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=207&meetSeq=1",
    "ticket": {
     "url": "https://m.fcseoul.com/fcapp/ticket/appViewTicket",
@@ -685,8 +688,11 @@
     "ENA SPORTS",
     "COUPANGPLAY"
    ],
-   "status": "예정",
-   "score": null,
+   "status": "종료",
+   "score": [
+    2,
+    0
+   ],
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=208&meetSeq=1",
    "ticket": {
     "url": "https://www.dhcfc.kr/ti/ti.php",
@@ -717,8 +723,11 @@
     "MAXPORTS",
     "COUPANGPLAY"
    ],
-   "status": "예정",
-   "score": null,
+   "status": "종료",
+   "score": [
+    2,
+    0
+   ],
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=2&gameId=254&meetSeq=2",
    "ticket": {
     "url": "https://nol.yanolja.com/ticket/genre/sports/bluewings",
@@ -748,8 +757,11 @@
    "broadcast": [
     "tvN SPORTS"
    ],
-   "status": "예정",
-   "score": null,
+   "status": "종료",
+   "score": [
+    81,
+    65
+   ],
    "info_url": "https://www.kbl.or.kr",
    "ticket": {
     "url": "https://www.kbl.or.kr",
@@ -779,8 +791,11 @@
    "broadcast": [
     "IB SPORTS"
    ],
-   "status": "예정",
-   "score": null,
+   "status": "종료",
+   "score": [
+    85,
+    91
+   ],
    "info_url": "https://www.kbl.or.kr",
    "ticket": null
   },
