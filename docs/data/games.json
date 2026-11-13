@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T21:52+09:00",
+ "updated_at": "2026-11-14T07:23+09:00",
  "teams": [
   {
    "id": "suwon_bluewings",
@@ -52,36 +52,6 @@
   }
  ],
  "games": [
-  {
-   "id": "kbl-S49G01N44",
-   "sport": "basketball",
-   "league": "KBL",
-   "competition": "KBL 2026-2027 정규시즌",
-   "round": null,
-   "date": "2026-10-30",
-   "time": "19:00",
-   "home": {
-    "name": "고양 소노",
-    "code": "66",
-    "team_id": null
-   },
-   "away": {
-    "name": "서울 삼성",
-    "code": "35",
-    "team_id": "samsung_thunders"
-   },
-   "venue": "고양소노아레나",
-   "broadcast": [
-    "tvN SPORTS"
-   ],
-   "status": "종료",
-   "score": [
-    87,
-    95
-   ],
-   "info_url": "https://www.kbl.or.kr",
-   "ticket": null
-  },
   {
    "id": "kl-2026-1-1-199",
    "sport": "football",
