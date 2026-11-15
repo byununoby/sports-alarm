@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15T21:30+09:00",
+ "updated_at": "2026-11-16T06:28+09:00",
  "teams": [
   {
    "id": "suwon_bluewings",
@@ -52,105 +52,6 @@
   }
  ],
  "games": [
-  {
-   "id": "kbl-S49G01N48",
-   "sport": "basketball",
-   "league": "KBL",
-   "competition": "KBL 2026-2027 정규시즌",
-   "round": null,
-   "date": "2026-11-01",
-   "time": "14:00",
-   "home": {
-    "name": "고양 소노",
-    "code": "66",
-    "team_id": null
-   },
-   "away": {
-    "name": "수원 KT",
-    "code": "06",
-    "team_id": "kt_sonicboom"
-   },
-   "venue": "고양소노아레나",
-   "broadcast": [
-    "tvN SPORTS"
-   ],
-   "status": "종료",
-   "score": [
-    96,
-    103
-   ],
-   "info_url": "https://www.kbl.or.kr",
-   "ticket": null
-  },
-  {
-   "id": "kl-2026-1-1-203",
-   "sport": "football",
-   "league": "K리그1",
-   "competition": "하나은행 K리그1 2026",
-   "round": 34,
-   "date": "2026-11-01",
-   "time": "16:30",
-   "home": {
-    "name": "서울",
-    "code": "K09",
-    "team_id": "fcseoul"
-   },
-   "away": {
-    "name": "인천",
-    "code": "K18",
-    "team_id": null
-   },
-   "venue": "서울 월드컵 경기장",
-   "broadcast": [
-    "JTBC SPORTS",
-    "COUPANGPLAY"
-   ],
-   "status": "종료",
-   "score": [
-    0,
-    1
-   ],
-   "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=203&meetSeq=1",
-   "ticket": {
-    "url": "https://m.fcseoul.com/fcapp/ticket/appViewTicket",
-    "open_at": "2026-10-27T18:00:00+09:00",
-    "estimated": true
-   }
-  },
-  {
-   "id": "kbl-S49G01N50",
-   "sport": "basketball",
-   "league": "KBL",
-   "competition": "KBL 2026-2027 정규시즌",
-   "round": null,
-   "date": "2026-11-01",
-   "time": "16:30",
-   "home": {
-    "name": "서울 삼성",
-    "code": "35",
-    "team_id": "samsung_thunders"
-   },
-   "away": {
-    "name": "서울 SK",
-    "code": "55",
-    "team_id": "sk_knights"
-   },
-   "venue": "잠실학생체육관",
-   "broadcast": [
-    "tvN SPORTS"
-   ],
-   "status": "종료",
-   "score": [
-    76,
-    90
-   ],
-   "info_url": "https://www.kbl.or.kr",
-   "ticket": {
-    "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-26T11:00:00+09:00",
-    "estimated": true
-   }
-  },
   {
    "id": "kbl-S49G01N51",
    "sport": "basketball",
