@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T22:39+09:00",
+ "updated_at": "2026-11-19T08:16+09:00",
  "teams": [
   {
    "id": "suwon_bluewings",
@@ -52,40 +52,6 @@
   }
  ],
  "games": [
-  {
-   "id": "kbl-S49G01N53",
-   "sport": "basketball",
-   "league": "KBL",
-   "competition": "KBL 2026-2027 정규시즌",
-   "round": null,
-   "date": "2026-11-04",
-   "time": "19:00",
-   "home": {
-    "name": "서울 SK",
-    "code": "55",
-    "team_id": "sk_knights"
-   },
-   "away": {
-    "name": "대구 한국가스공사",
-    "code": "64",
-    "team_id": null
-   },
-   "venue": "잠실학생체육관",
-   "broadcast": [
-    "tvN SPORTS"
-   ],
-   "status": "종료",
-   "score": [
-    76,
-    82
-   ],
-   "info_url": "https://www.kbl.or.kr",
-   "ticket": {
-    "url": "https://www.kbl.or.kr",
-    "open_at": "2026-10-30T11:00:00+09:00",
-    "estimated": true
-   }
-  },
   {
    "id": "kbl-S49G01N54",
    "sport": "basketball",
