@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T12:42+09:00",
+ "updated_at": "2026-11-21T22:14+09:00",
  "teams": [
   {
    "id": "suwon_bluewings",
@@ -662,8 +662,11 @@
     "JTBC SPORTS",
     "COUPANGPLAY"
    ],
-   "status": "예정",
-   "score": null,
+   "status": "종료",
+   "score": [
+    0,
+    1
+   ],
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=211&meetSeq=1",
    "ticket": null
   },
@@ -690,8 +693,11 @@
     "생활체육TV",
     "COUPANGPLAY"
    ],
-   "status": "예정",
-   "score": null,
+   "status": "종료",
+   "score": [
+    3,
+    1
+   ],
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=2&gameId=257&meetSeq=2",
    "ticket": {
     "url": "https://nol.yanolja.com/ticket/genre/sports/bluewings",
@@ -722,8 +728,11 @@
     "ENA SPORTS",
     "COUPANGPLAY"
    ],
-   "status": "예정",
-   "score": null,
+   "status": "종료",
+   "score": [
+    1,
+    3
+   ],
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=213&meetSeq=1",
    "ticket": null
   },
