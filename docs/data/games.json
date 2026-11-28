@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-28T13:27+09:00",
+ "updated_at": "2026-11-28T22:53+09:00",
  "teams": [
   {
    "id": "suwon_bluewings",
@@ -433,8 +433,11 @@
     "ENA SPORTS",
     "COUPANGPLAY"
    ],
-   "status": "예정",
-   "score": null,
+   "status": "종료",
+   "score": [
+    4,
+    1
+   ],
    "info_url": "https://www.kleague.com/match.do?year=2026&leagueId=1&gameId=217&meetSeq=1",
    "ticket": {
     "url": "https://m.fcseoul.com/fcapp/ticket/appViewTicket",
