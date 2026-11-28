@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T23:42+09:00",
+ "updated_at": "2026-11-28T09:21+09:00",
  "teams": [
   {
    "id": "suwon_bluewings",
@@ -52,36 +52,6 @@
   }
  ],
  "games": [
-  {
-   "id": "kbl-S49G01N66",
-   "sport": "basketball",
-   "league": "KBL",
-   "competition": "KBL 2026-2027 정규시즌",
-   "round": null,
-   "date": "2026-11-13",
-   "time": "19:00",
-   "home": {
-    "name": "원주 DB",
-    "code": "16",
-    "team_id": null
-   },
-   "away": {
-    "name": "수원 KT",
-    "code": "06",
-    "team_id": "kt_sonicboom"
-   },
-   "venue": "원주DB프로미아레나",
-   "broadcast": [
-    "tvN SPORTS"
-   ],
-   "status": "종료",
-   "score": [
-    94,
-    83
-   ],
-   "info_url": "https://www.kbl.or.kr",
-   "ticket": null
-  },
   {
    "id": "kbl-S49G01N67",
    "sport": "basketball",
